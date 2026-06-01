@@ -1,0 +1,95 @@
+ 20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] Start Snapshot. |. C95FB79C-36B5-4662-B8C9-90F1FA70AEEB
+✅ Exported: [Rect] Start Snapshot.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] Start Snapshot.kmmacros: stat: No such file or directory
+0 bytes
+New size: 23077 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_InitialiseOverlayRectCoordinates. |. E51200C2-9574-44D3-BDF0-909480473411
+✅ Exported: [Rect] sub_InitialiseOverlayRectCoordinates.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_InitialiseOverlayRectCoordinates.kmmacros: stat: No such file or directory
+0 bytes
+New size: 4900 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_Keynote Export. |. E52E0414-054C-42B6-A9F9-0FE2BEF9A15E
+✅ Exported: [Rect] sub_Keynote Export.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_Keynote Export.kmmacros: stat: No such file or directory
+0 bytes
+New size: 5793 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_Name Snapshots. |. A2C11405-B5A3-4DBF-89BE-75AAF5449DF0
+✅ Exported: [Rect] sub_Name Snapshots.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_Name Snapshots.kmmacros: stat: No such file or directory
+0 bytes
+New size: 4188 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_New Bounds %rect_coord0%. |. E16DAA64-AC4A-4D50-8D5C-1C69C53ECBCB
+✅ Exported: [Rect] sub_New Bounds %rect_coord0%.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_New Bounds %rect_coord0%.kmmacros: stat: No such file or directory
+0 bytes
+New size: 11216 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_OverlayRectCoord0. |. 0A595A6A-1807-46A5-8AC8-392133822A09
+✅ Exported: [Rect] sub_OverlayRectCoord0.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_OverlayRectCoord0.kmmacros: stat: No such file or directory
+0 bytes
+New size: 35392 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_Prepare AfDesigner50%. |. C119767B-908A-4458-88B6-EB2C4958DF6D
+✅ Exported: [Rect] sub_Prepare AfDesigner50%.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_Prepare AfDesigner50%.kmmacros: stat: No such file or directory
+0 bytes
+New size: 10590 bytes
+——————————————
+20260601_14:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_QuickSnap. |. 2060A5E3-927A-4B07-84AE-F7A894272C3C
+✅ Exported: [Rect] sub_QuickSnap.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/[Rect] sub_QuickSnap.kmmacros: stat: No such file or directory
+0 bytes
+New size: 20297 bytes
+——————————————
+ 20260601_15:18 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_Prepare AfDesigner50%. |. C119767B-908A-4458-88B6-EB2C4958DF6D
+✅ Exported: [Rect] sub_Prepare AfDesigner50%.kmmacros
+Old size: 10590 bytes
+New size: 13283 bytes
+——————————————
+ 20260601_15:20 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_QuickSnap. |. 2060A5E3-927A-4B07-84AE-F7A894272C3C
+⚠️ File unchanged: [Rect] sub_QuickSnap.kmmacros (size: 20297 bytes)
+——————————————
+ 20260601_15:25 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_QuickSnap. |. 2060A5E3-927A-4B07-84AE-F7A894272C3C
+✅ Exported: [Rect] sub_QuickSnap.kmmacros
+Old size: 20297 bytes
+New size: 22151 bytes
+——————————————
+ 20260601_15:29 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_QuickSnap. |. 2060A5E3-927A-4B07-84AE-F7A894272C3C
+✅ Exported: [Rect] sub_QuickSnap.kmmacros
+Old size: 22151 bytes
+New size: 23174 bytes
+——————————————
+ 20260601_15:33 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] Start Snapshot. |. C95FB79C-36B5-4662-B8C9-90F1FA70AEEB
+✅ Exported: [Rect] Start Snapshot.kmmacros
+Old size: 23077 bytes
+New size: 23972 bytes
+——————————————
+ 20260601_15:37 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] Start Snapshot. |. C95FB79C-36B5-4662-B8C9-90F1FA70AEEB
+⚠️ File unchanged: [Rect] Start Snapshot.kmmacros (size: 23972 bytes)
+——————————————
+ 20260601_17:28 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+Keynote insert listImage3screens. |. 408EA603-231F-4FA4-B5F4-F4CCCA2FB593
+✅ Exported: Keynote insert listImage3screens.kmmacros
+Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros/Keynote insert listImage3screens.kmmacros: stat: No such file or directory
+0 bytes
+New size: 46377 bytes
+——————————————

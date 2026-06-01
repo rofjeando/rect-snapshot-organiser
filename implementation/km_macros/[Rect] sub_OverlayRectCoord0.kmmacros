@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>ActionColor</key>
+			<string>Aqua</string>
+			<key>ActionUID</key>
+			<integer>16655707</integer>
+			<key>MacroActionType</key>
+			<string>Comment</string>
+			<key>StyledText</key>
+			<data>
+			cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4dAgAAKwAA
+			AAEAAAAVAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2Fy
+			dGYyODIyClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3Jt
+			MHtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGlj
+			YTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1
+			O1xyZWQwXGdyZWVuMFxibHVlMDt9CntcKlxleHBhbmRlZGNvbG9y
+			dGJsOztcY3NzcmdiXGMwXGMwXGMwXGM4NDcwNlxjbmFtZSBjb250
+			cm9sVGV4dENvbG9yO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4
+			MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
+			NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFs
+			XHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzN1xmc21pbGxpMTg5
+			MDkgXGNmMiBUaGlzIG1hY3JvIGdpdmVzIHRoZSBjb29yZGluYXRl
+			cyBvZiBhIHJlY3RhbmdsZSBzZWxlY3RlZCBvbiB0aGUgc2NyZWVu
+			XAotIGhvcml6b250YWwgZHJhZ2dpbmcsXAotIGhvcml6b250YWwg
+			YXJyb3dzIG1vdmVtZW50LCBzaGlmdCBtb3ZlIGZhc3RcCn0BAAAA
+			IwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAB/Z35otgEAAAAAAAAAAAAA
+			</data>
+			<key>Title</key>
+			<string>test -windsurf html</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>16655708</integer>
+			<key>IsDisclosed</key>
+			<false/>
+			<key>MacroActionType</key>
+			<string>SetVariableToText</string>
+			<key>Text</key>
+			<string>%Variable%rect_coordinates[1]%,%Variable%rect_coordinates[2]%</string>
+			<key>Variable</key>
+			<string>Local_StartingWindowPosition</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>20014359</integer>
+			<key>Conditions</key>
+			<dict>
+				<key>ConditionList</key>
+				<array>
+					<dict>
+						<key>ConditionType</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>snag_no</string>
+						<key>VariableConditionType</key>
+						<string>Contains</string>
+						<key>VariableValue</key>
+						<string>1</string>
+					</dict>
+				</array>
+				<key>ConditionListMatch</key>
+				<string>All</string>
+			</dict>
+			<key>ElseActions</key>
+			<array>
+				<dict>
+					<key>ActionUID</key>
+					<integer>20014321</integer>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string>%Variable%rect_coord0[1]%,%Variable%rect_coord0[2]%</string>
+					<key>Variable</key>
+					<string>Local_StartingWindowPosition</string>
+				</dict>
+				<dict>
+					<key>ActionUID</key>
+					<integer>20014322</integer>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string>%Variable%rect_coord0[3]%,%Variable%rect_coord0[4]%</string>
+					<key>Variable</key>
+					<string>Local_StartingWindowSize</string>
+				</dict>
+			</array>
+			<key>IsActive</key>
+			<false/>
+			<key>IsDisclosed</key>
+			<false/>
+			<key>MacroActionType</key>
+			<string>IfThenElse</string>
+			<key>ThenActions</key>
+			<array>
+				<dict>
+					<key>ActionColor</key>
+					<string>Teal</string>
+					<key>ActionName</key>
+					<string>Local_startingWindowPosition and Size from InitializeOverlayRectCoordinates</string>
+					<key>ActionUID</key>
+					<integer>20014444</integer>
+					<key>IsDisclosed</key>
+					<false/>
+					<key>MacroActionType</key>
+					<string>Comment</string>
+					<key>StyledText</key>
+					<data>
+					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
+					AQAAAC5uAAAAKwAAAAEAAABmAAAAe1xydGYx
+					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
+					NDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRi
+					bH0Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVu
+					MjU1XGJsdWUyNTU7fQp9AQAAACMAAAABAAAA
+					BwAAAFRYVC5ydGYQAAAAd3KjV7YBAAAAAAAA
+					AAAAAA==
+					</data>
+					<key>Title</key>
+					<string>Local_startingWindowPosition and Size from InitializeOverlayRectCoordinates</string>
+				</dict>
+			</array>
+			<key>TimeOutAbortsMacro</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>16655709</integer>
+			<key>IsDisclosed</key>
+			<false/>
+			<key>MacroActionType</key>
+			<string>SetVariableToText</string>
+			<key>Text</key>
+			<string>%Variable%rect_coordinates[3]%,%Variable%rect_coordinates[4]%</string>
+			<key>Variable</key>
+			<string>Local_StartingWindowSize</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>16819835</integer>
+			<key>Actions</key>
+			<array>
+				<dict>
+					<key>ActionUID</key>
+					<integer>16655710</integer>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string>%FrontWindowFrame%</string>
+					<key>Variable</key>
+					<string>Local_FrontWindowBounds</string>
+				</dict>
+				<dict>
+					<key>ActionColor</key>
+					<string>Magenta</string>
+					<key>ActionUID</key>
+					<integer>16655711</integer>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string>%ExecutingInstance%</string>
+					<key>Variable</key>
+					<string>rect_INSTANCE</string>
+				</dict>
+				<dict>
+					<key>ActionUID</key>
+					<integer>16655712</integer>
+					<key>Floating</key>
+					<true/>
+					<key>HasTitle</key>
+					<false/>
+					<key>MacroActionType</key>
+					<string>CustomPrompt</string>
+					<key>Resizable</key>
+					<true/>
+					<key>Text</key>
+					<string>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+    &lt;style type="text/css"&gt;
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: white;
+            cursor: none;
+            overflow: hidden;
+        }
+        .hidden {
+            display: none !important;
+        }
+        #showHideBoundsButton {
+            opacity: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 8000;
+            transition: .2s;
+            transform-origin: top right;
+        }
+        .showHideBoundsButtonVisible {
+            transform: scale(1.5) !important;
+            cursor: pointer !important;
+            opacity: 1 !important;
+        }
+        .showHideBoundsButtonVisible:active {
+            transform: scale(1.3) !important;
+        }
+        #client {
+            overflow: hidden;
+            resize: both;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: 1px dashed red;
+            box-sizing: border-box;
+            cursor: move;
+            background: rgba(0, 0, 255, 0.3);
+        }
+    &lt;/style&gt;
+    &lt;script type="text/javascript"&gt;
+        function handleError(e) { setTimeout(() =&gt; cancel(`Error: ${e.message}`), 100); }
+
+        class Rect {
+            #left; #top; #width; #height;
+            static fromString(frameString) {
+                let [left, top, width, height] = frameString.split(/\s*,\s*/);
+                return new Rect(left, top, width, height);
+            }
+            constructor(left, top, width, height) {
+                this.#left = parseInt(left);
+                this.#top = parseInt(top);
+                this.#width = parseInt(width);
+                this.#height = parseInt(height);
+            }
+            get left() { return this.#left; }
+            get top() { return this.#top; }
+            get width() { return this.#width; }
+            get height() { return this.#height; }
+            get right() { return this.#left + this.#width; }
+            get bottom() { return this.#top + this.#height; }
+            containsRect(r) {
+                return r.left &gt;= this.left &amp;&amp; r.right &lt;= this.right &amp;&amp; r.top &gt;= this.top &amp;&amp; r.bottom &lt;= this.bottom;
+            }
+            toRelativeRect(relativeToRect) {
+                return new Rect(
+                    this.left - relativeToRect.left,
+                    this.top - relativeToRect.top,
+                    this.width,
+                    this.height
+                );
+            }
+            toString() {
+                return `${this.left},${this.top},${this.width},${this.height}`;
+            }
+        }
+
+        class KM {
+            static calculate(value) { return parseInt(window.KeyboardMaestro.Calculate(value)); }
+            static getWindowLeft() { return this.calculate("WINDOW(Left)"); }
+            static getWindowTop() { return this.calculate("WINDOW(Top)"); }
+            static getWindowWidth() { return this.calculate("WINDOW(Width)"); }
+            static getWindowHeight() { return this.calculate("WINDOW(height)"); }
+            static getWindowBounds() { return new Rect(this.getWindowLeft(), this.getWindowTop(), this.getWindowWidth(), this.getWindowHeight()); }
+            static getCursorX() { return this.calculate("MOUSEX()"); }
+            static getCursorY() { return this.calculate("MOUSEY()"); }
+            static moveWindow(x, y) { window.KeyboardMaestro.ResizeWindow(`${x},${y},${this.getWindowWidth()},${this.getWindowHeight()}`); }
+            static getVariable(name, required) {
+                const result = window.KeyboardMaestro.GetVariable(name);
+                if (!result &amp;&amp; required)
+                    throw new Error(`Parameter "${name}" is required`)
+                return result;
+            }
+            static getVariableAsRect(name, required) {
+                const value = KM.getVariable(name, required);
+                if (!value)
+                    return null;
+                return Rect.fromString(value);
+            }
+            static setVariable(varName, value) { return window.KeyboardMaestro.SetVariable(varName, value); }
+            static executeMacro(macro, triggerValue) { window.KeyboardMaestro.Trigger(macro, triggerValue); }
+            static executeHelperMacro(params) {
+                params.windowId = "GetScreenCoordinatesWindow";
+                this.executeMacro("AB5988C8-DA4D-4ACA-9C84-F9A9346C727F", JSON.stringify(params));
+            }
+            static clickInCenterOfWindow() {
+                const bounds = this.getWindowBounds();
+                const params = {
+                    action: "click",
+                    clickX: (bounds.width / 2) + bounds.left,
+                    clickY: (bounds.height / 2) + bounds.top
+                };
+                this.executeHelperMacro(params);
+            }
+        }
+
+        class WindowDragger {
+            #element; #offsetX; #offsetY; #paused;
+            constructor(element) {
+                this.#element = element;
+            }
+            attach() {
+                this.#element.onpointerdown = (e) =&gt; this.#beginDragging(e);
+            }
+            detach() {
+                this.#element.onpointerdown = null;
+                this.#element.onpointermove = null;
+                this.#element.onpointerup = null;
+            }
+            #beginDragging(e) {
+                if (e.button !== 0 || this.#paused)
+                    return;
+                this.#offsetX = KM.getWindowLeft() - KM.getCursorX();
+                this.#offsetY = KM.getWindowTop() - KM.getCursorY();
+
+                this.#element.onpointermove = (e) =&gt; this.#drag(e);
+                this.#element.onpointerup = (e) =&gt; this.#stopDragging(e);
+                this.#element.setPointerCapture(e.pointerId);
+            }
+            // MODIFIED: constrain dragging to horizontal if Shift is held
+            #drag(e) {
+                if (e.shiftKey) {
+                    // Only update X, keep Y at window's original top
+                    KM.moveWindow(KM.getCursorX() + this.#offsetX, KM.getWindowTop());
+                } else {
+                    // Normal free dragging
+                    KM.moveWindow(KM.getCursorX() + this.#offsetX, KM.getCursorY() + this.#offsetY);
+                }
+            }
+            #stopDragging(e) {
+                this.#element.onpointermove = null;
+                this.#element.onpointerup = null;
+            }
+            pause(hideCursor) {
+                this.#paused = true;
+                if (hideCursor)
+                    this.#element.style.cursor = "none";
+            }
+            resume() {
+                this.#paused = false;
+                this.#element.style.cursor = "move";
+            }
+        }
+
+        class ResizeEventFinishedWatcher {
+            #resizeFinishedCallback;
+            #resizeCallback;
+            #checkIsMouseUp_intervalTimerDuration = 200;
+            #checkIsMouseUp_intervalTimerId;
+            constructor(options) {
+                options = options ?? {};
+                this.#resizeFinishedCallback = options.resizeFinishedCallback;
+                this.#resizeCallback = options.resizeCallback;
+                window.addEventListener("resize", (e) =&gt; this.#resizeEventHandler(e));
+            }
+            #resizeEventHandler(e) {
+                if (!this.#checkIsMouseUp_intervalTimerId) {
+                    this.#checkIsMouseUp_intervalTimerId =
+                        setInterval(() =&gt; this.#checkIsMouseUp_timerEvent(), this.#checkIsMouseUp_intervalTimerDuration);
+                }
+                if (this.#resizeCallback)
+                    this.#resizeCallback(e);
+            }
+            #checkIsMouseUp_timerEvent() {
+                const mouseButton = KM.calculate("MOUSEBUTTON()");
+                if (!mouseButton) {
+                    this.#stopWaitingForMouseUp();
+                    this.#resizeFinishedCallback();
+                }
+            }
+            #stopWaitingForMouseUp() {
+                if (this.#checkIsMouseUp_intervalTimerId) {
+                    clearInterval(this.#checkIsMouseUp_intervalTimerId);
+                    this.#checkIsMouseUp_intervalTimerId = null;
+                }
+            }
+        }
+
+        class TextWidthCalculator {
+            #context;
+            static getElementFontString(element) {
+                return window.getComputedStyle(element).font;
+            }
+            static getElementFontSize(element) {
+                return TextWidthCalculator.getFontSizeFromFontString(TextWidthCalculator.getElementFontString(element));
+            }
+            static getFontSizeFromFontString(fontString) {
+                return parseFloat(/^\d*/.exec(fontString)[0]);
+            }
+            static replaceFontSizeInFontString(fontString, fontSize) {
+                return fontString.replace(/^\d*/, fontSize);
+            }
+            constructor() {
+                const canvas = document.createElement("canvas");
+                this.#context = canvas.getContext("2d");
+            }
+            calcTextWidth(text, fontString) {
+                if (!text)
+                    return 0;
+                this.#context.font = fontString;
+                var result = 0;
+                if (!Array.isArray(text))
+                    text = [text];
+                text.forEach(entry =&gt; {
+                    const width = Math.ceil(this.#context.measureText(entry).width);
+                    result = Math.max(result, width);
+                });
+                return result;
+            }
+            fitTextInBoundsWidth(text, element, width, minFontSize, maxFontSize) {
+                var fontString = TextWidthCalculator.getElementFontString(element);
+                var fontSize = TextWidthCalculator.getFontSizeFromFontString(fontString);
+                var textWidth = this.calcTextWidth(text, fontString);
+                if (textWidth &lt; width) {
+                    let lastFontSize = fontSize;
+                    while (lastFontSize &lt; maxFontSize) {
+                        let testFontSize = lastFontSize + 1;
+                        if (this.calcTextWidth(text, TextWidthCalculator.replaceFontSizeInFontString(fontString, testFontSize)) &gt;= width)
+                            break;
+                        lastFontSize = testFontSize;
+                    }
+                    element.style.fontSize = `${lastFontSize}px`;
+                } else if (textWidth &gt; width) {
+                    while (fontSize &gt; minFontSize) {
+                        fontSize--;
+                        if (this.calcTextWidth(text, TextWidthCalculator.replaceFontSizeInFontString(fontString, fontSize)) &lt;= width)
+                            break;
+                    }
+                    element.style.fontSize = `${fontSize}px`;
+                }
+            }
+        }
+
+        var _clientElement;
+        var _textElement;
+        var _windowDragger;
+        var _shouldShowBounds = false;
+        var _showHideBoundsButton;
+        var _frontWindowBounds;
+
+        function KMWindow() {
+            try {
+                _clientElement = document.getElementById("client");
+                _textElement = document.getElementById("text");
+                _showHideBoundsButton = document.getElementById("showHideBoundsButton");
+
+                window.addEventListener("keydown", (e) =&gt; {
+                    switch (e.key) {
+                        case "Escape":
+                            e.preventDefault();
+                            cancel();
+                            break;
+                        case "Enter":
+                            e.preventDefault();
+                            accept();
+                            break;
+                    }
+                });
+
+                window.addEventListener("blur", () =&gt; {
+                    _clientElement.style.borderStyle = "solid";
+                    hideBoundsText();
+                });
+
+                window.addEventListener("focus", () =&gt; {
+                    _clientElement.style.borderStyle = "dashed";
+                    showBoundsText();
+                });
+
+                _showHideBoundsButton.addEventListener("mouseenter", () =&gt; {
+                    _showHideBoundsButton.classList.add("showHideBoundsButtonVisible");
+                });
+
+                _showHideBoundsButton.addEventListener("mouseleave", () =&gt; {
+                    _showHideBoundsButton.classList.remove("showHideBoundsButtonVisible");
+                });
+
+                _showHideBoundsButton.addEventListener("click", () =&gt; {
+                    _shouldShowBounds = !_shouldShowBounds;
+                    if (_shouldShowBounds)
+                        showBoundsText();
+                    else
+                        hideBoundsText();
+                });
+
+                const backgroundColor = KM.getVariable("Local_BackgroundColorRGBA");
+                if (backgroundColor) {
+                    if (!backgroundColor.match(/^rgba\(\d+,\s?\d+,\s?\d+,\s?\d?(\.\d+)?\)$/)) {
+                        throw new Error(`BackgroundColorRGBA ("${backgroundColor}") must be an rgba() value with 4 numbers`);
+                    }
+                    _clientElement.style.background = backgroundColor;
+                }
+
+                const borderColor = KM.getVariable("Local_BorderColor");
+                if (borderColor)
+                    _clientElement.style.borderColor = borderColor;
+
+                const textColor = KM.getVariable("Local_TextColor");
+                if (textColor)
+                    _clientElement.style.color = textColor;
+
+                var width = "100";
+                var height = "100"
+                const windowSize = KM.getVariable("Local_StartingWindowSize");
+                if (windowSize) {
+                    const matches = /^(\d+),\s?(\d+)$/.exec(windowSize);
+                    if (!matches)
+                        throw new Error(`StartingWindowSize ("${windowSize}") must be in the format "#,#" like "50,100"`);
+                    width = matches[1];
+                    height = matches[2];
+                }
+
+                var windowPosition = KM.getVariable("Local_StartingWindowPosition");
+                if (!windowPosition)
+                    windowPosition = `SCREENVISIBLE(MAIN, MidX)-(${width} / 2), SCREENVISIBLE(MAIN, MidY)-${height} / 2`;
+
+                _frontWindowBounds = KM.getVariableAsRect("Local_FrontWindowBounds", true);
+
+                return `${windowPosition}, ${width}, ${height}`;
+            } catch (e) {
+                handleError(e);
+                return `SCREENVISIBLE(MAIN, MidX)-50, SCREENVISIBLE(MAIN, MidY)-50, 100, 100`;
+            }
+        }
+
+        function KMDidShowWindow() {
+            try {
+                _windowDragger = new WindowDragger(_clientElement);
+                _windowDragger.attach();
+
+                new ResizeEventFinishedWatcher({
+                    resizeFinishedCallback: () =&gt; setTimeout(() =&gt; KM.clickInCenterOfWindow(), 50),
+                    resizeCallback: () =&gt; showBoundsText()
+                });
+
+                showBoundsText();
+            } catch (e) {
+                handleError(e);
+            }
+        }
+
+        function showBoundsText() {
+            if (!_shouldShowBounds)
+                return;
+            const bounds = KM.getWindowBounds();
+            const text = `${bounds.left},${bounds.top},${bounds.width},${bounds.height}`;
+            _textElement.innerText = text;
+            _textElement.classList.remove("hidden");
+
+            const calc = new TextWidthCalculator();
+            calc.fitTextInBoundsWidth(text, _clientElement, Math.max(10, bounds.width - 2), 2, 14);
+        }
+
+        function hideBoundsText() {
+            _textElement.innerText = "";
+            _textElement.classList.add("hidden");
+        }
+
+        function accept() {
+            const bounds = KM.getWindowBounds();
+            const result = {
+                Bounds: bounds.toString(),
+                RelativeBounds: bounds.toRelativeRect(_frontWindowBounds).toString(),
+                IsInFrontWindow: _frontWindowBounds.containsRect(bounds) ? "1" : "0"
+            }
+            window.KeyboardMaestro.Submit(JSON.stringify(result));
+        }
+
+        function cancel(result) {
+            window.KeyboardMaestro.Cancel(`${result ?? "Canceled"}`)
+        }
+
+        // Optional: Arrow key movement (as before)
+        function moveRectangleBy(dx, dy) {
+            const left = KM.getWindowLeft();
+            const top = KM.getWindowTop();
+            KM.moveWindow(left + dx, top + dy);
+        }
+        window.addEventListener("keydown", (e) =&gt; {
+            let step = e.shiftKey ? 10 : 1;
+            switch (e.key) {
+                case "ArrowLeft":
+                    e.preventDefault();
+                    moveRectangleBy(-step, 0);
+                    break;
+                case "ArrowRight":
+                    e.preventDefault();
+                    moveRectangleBy(step, 0);
+                    break;
+                case "ArrowUp":
+                    e.preventDefault();
+                    moveRectangleBy(0, -step);
+                    break;
+                case "ArrowDown":
+                    e.preventDefault();
+                    moveRectangleBy(0, step);
+                    break;
+                // Escape and Enter already handled in original code above
+            }
+        });
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body data-kmwindowid="GetScreenCoordinatesWindow"&gt;
+    &lt;div id="client"&gt;
+        &lt;svg id="showHideBoundsButton" width="20" height="20" version="1.1" viewBox="0 0 5.2917 5.2917" xmlns="http://www.w3.org/2000/svg"&gt;
+            &lt;g transform="translate(-23.602 -17.334)"&gt;
+                &lt;rect x="23.642" y="17.374" width="5.2125" height="5.2125" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3.6" stroke-width=".079159" style="paint-order:markers fill stroke"/&gt;
+                &lt;text x="23.996552" y="20.523552" font-family="'Arial Black'" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" style="line-height:1.05" xml:space="preserve"&gt;&lt;tspan x="23.996552" y="20.523552" font-family="Arial" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458"&gt;x,y&lt;/tspan&gt;&lt;/text&gt;
+            &lt;/g&gt;
+        &lt;/svg&gt;
+        &lt;span id="text" class="hidden"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+					<key>TimeOutAbortsMacro</key>
+					<true/>
+					<key>Transparent</key>
+					<true/>
+					<key>UseText</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>ActionColor</key>
+					<string>Green</string>
+					<key>ActionUID</key>
+					<integer>16830169</integer>
+					<key>Floating</key>
+					<true/>
+					<key>HasTitle</key>
+					<false/>
+					<key>IsActive</key>
+					<false/>
+					<key>IsDisclosed</key>
+					<false/>
+					<key>MacroActionType</key>
+					<string>CustomPrompt</string>
+					<key>Path</key>
+					<string>/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/imageOrganiser/html/snapshot_alpha.html</string>
+					<key>Resizable</key>
+					<true/>
+					<key>TimeOutAbortsMacro</key>
+					<true/>
+					<key>Transparent</key>
+					<true/>
+					<key>UseText</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>ActionColor</key>
+					<string>Yellow</string>
+					<key>ActionUID</key>
+					<integer>16830452</integer>
+					<key>MacroActionType</key>
+					<string>Comment</string>
+					<key>StyledText</key>
+					<data>
+					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
+					AQAAAC7DAQAAKwAAAAEAAAC7AQAAe1xydGYx
+					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYy
+					ODY3Clxjb2NvYXRleHRzY2FsaW5nMFxjb2Nv
+					YXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dp
+					c3NcZmNoYXJzZXQwIEhlbHZldGljYTt9Cntc
+					Y29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+					bHVlMjU1O1xyZWQwXGdyZWVuMFxibHVlMDt9
+					CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3Nz
+					cmdiXGMwXGMwXGMwXGM4NDcwNlxjbmFtZSBj
+					b250cm9sVGV4dENvbG9yO30KXHBhcmRcdHg1
+					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
+					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
+					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+					YXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
+					b3IwCgpcZjBcZnMzMFxmc21pbGxpMTUzNjQg
+					XGNmMiBUaGUgbmV3IGh0bWwgd2l0aCBjZW50
+					cmFsIGF4aXMgcmV0dXJucyAlc25hcHNfQm91
+					bmRzJX0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0
+					ZhAAAABBzCVptgEAAAAAAAAAAAAA
+					</data>
+					<key>Title</key>
+					<string>change as of Tuesday, November 25, 2025</string>
+				</dict>
+				<dict>
+					<key>ActionUID</key>
+					<integer>16830415</integer>
+					<key>MacroActionType</key>
+					<string>Pause</string>
+					<key>Time</key>
+					<string>.5</string>
+					<key>TimeOutAbortsMacro</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>ActionUID</key>
+					<integer>16830303</integer>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string>%snaps_Bounds%</string>
+					<key>Variable</key>
+					<string>rect_Result</string>
+				</dict>
+				<dict>
+					<key>ActionUID</key>
+					<integer>16655713</integer>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string>%HTMLResult%</string>
+					<key>Variable</key>
+					<string>rect_Result</string>
+				</dict>
+				<dict>
+					<key>ActionUID</key>
+					<integer>16830538</integer>
+					<key>IsActive</key>
+					<false/>
+					<key>IsDisclosed</key>
+					<false/>
+					<key>MacroActionType</key>
+					<string>SetVariableToText</string>
+					<key>Text</key>
+					<string></string>
+					<key>Variable</key>
+					<string>rect_Result</string>
+				</dict>
+				<dict>
+					<key>ActionName</key>
+					<string>Display momentarily</string>
+					<key>ActionUID</key>
+					<integer>16830453</integer>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>DisplayWindow</string>
+							<key>ActionUID</key>
+							<integer>16830340</integer>
+							<key>MacroActionType</key>
+							<string>InsertText</string>
+							<key>StyledText</key>
+							<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6bAQAAKwAAAAEAAACT
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyODY3Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYTt9CntcY29s
+							b3J0Ymw7XHJlZDI1NVxn
+							cmVlbjI1NVxibHVlMjU1
+							O1xyZWQwXGdyZWVuMFxi
+							bHVlMDt9CntcKlxleHBh
+							bmRlZGNvbG9ydGJsOztc
+							Y3NzcmdiXGMwXGMwXGMw
+							XGM4NDcwNlxjbmFtZSBj
+							b250cm9sVGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMzMFxm
+							c21pbGxpMTUzNjQgXGNm
+							MiAlcmVjdF9SZXN1bHQl
+							fQEAAAAjAAAAAQAAAAcA
+							AABUWFQucnRmEAAAAKfO
+							JWm2AQAAAAAAAAAAAAA=
+							</data>
+							<key>Text</key>
+							<string>%rect_Result%</string>
+						</dict>
+						<dict>
+							<key>ActionUID</key>
+							<integer>16830377</integer>
+							<key>MacroActionType</key>
+							<string>Pause</string>
+							<key>Time</key>
+							<string>.5</string>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>ActionUID</key>
+							<integer>16830414</integer>
+							<key>KeyCode</key>
+							<integer>36</integer>
+							<key>MacroActionType</key>
+							<string>SimulateKeystroke</string>
+							<key>Modifiers</key>
+							<integer>0</integer>
+							<key>ReleaseAll</key>
+							<false/>
+							<key>TargetApplication</key>
+							<dict/>
+							<key>TargetingType</key>
+							<string>Front</string>
+						</dict>
+					</array>
+					<key>IsActive</key>
+					<false/>
+					<key>IsDisclosed</key>
+					<false/>
+					<key>MacroActionType</key>
+					<string>Group</string>
+					<key>TimeOutAbortsMacro</key>
+					<true/>
+				</dict>
+			</array>
+			<key>MacroActionType</key>
+			<string>Group</string>
+			<key>TimeOutAbortsMacro</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>16830266</integer>
+			<key>IsActive</key>
+			<false/>
+			<key>IsDisclosed</key>
+			<false/>
+			<key>MacroActionType</key>
+			<string>SetVariableToText</string>
+			<key>Text</key>
+			<string>%HTMLResult%</string>
+			<key>Variable</key>
+			<string>rect_Result</string>
+		</dict>
+		<dict>
+			<key>ActionColor</key>
+			<string>Aqua</string>
+			<key>ActionName</key>
+			<string>Check result for "Cancel" or "Error", both of which will cancel the macro</string>
+			<key>ActionUID</key>
+			<integer>16655714</integer>
+			<key>CaseEntries</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>CancelThisMacro</string>
+							<key>ActionColor</key>
+							<string>Red</string>
+							<key>ActionUID</key>
+							<integer>16655715</integer>
+							<key>IsDisclosed</key>
+							<false/>
+							<key>MacroActionType</key>
+							<string>Cancel</string>
+						</dict>
+					</array>
+					<key>ConditionType</key>
+					<string>StartsWith</string>
+					<key>TestValue</key>
+					<string>Cancel</string>
+				</dict>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>CenterWindowAt</string>
+							<key>ActionColor</key>
+							<string>Magenta</string>
+							<key>ActionName</key>
+							<string>Center Next Engine Window on the Mouse Screen</string>
+							<key>ActionUID</key>
+							<integer>16655716</integer>
+							<key>HeightExpression</key>
+							<string>300</string>
+							<key>HorizontalExpression</key>
+							<string>SCREENVISIBLE(Mouse, MidX)</string>
+							<key>IsDisclosed</key>
+							<false/>
+							<key>MacroActionType</key>
+							<string>SetNextEngineWindow</string>
+							<key>VerticalExpression</key>
+							<string>SCREENVISIBLE(Mouse, MidY) - 200</string>
+							<key>WidthExpression</key>
+							<string>300</string>
+						</dict>
+						<dict>
+							<key>ActionColor</key>
+							<string>Red</string>
+							<key>ActionName</key>
+							<string>Prompt error and Cancel This Macro</string>
+							<key>ActionUID</key>
+							<integer>16655717</integer>
+							<key>Buttons</key>
+							<array>
+								<dict>
+									<key>Button</key>
+									<string>OK</string>
+									<key>Cancel</key>
+									<true/>
+								</dict>
+							</array>
+							<key>IsDisclosed</key>
+							<false/>
+							<key>MacroActionType</key>
+							<string>PromptForUserInput</string>
+							<key>Prompt</key>
+							<string>%Variable%Local_Result%</string>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+							<key>Title</key>
+							<string>%ExecutingMacro%</string>
+							<key>Variables</key>
+							<array/>
+						</dict>
+					</array>
+					<key>ConditionType</key>
+					<string>StartsWith</string>
+					<key>TestValue</key>
+					<string>Error</string>
+				</dict>
+			</array>
+			<key>MacroActionType</key>
+			<string>Switch</string>
+			<key>Source</key>
+			<string>Variable</string>
+			<key>Variable</key>
+			<string>Local_Result</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>16655718</integer>
+			<key>MacroActionType</key>
+			<string>SetVariablesToJSON</string>
+			<key>Prefix</key>
+			<string>rect_Result_</string>
+			<key>Text</key>
+			<string>%Variable%rect_Result%</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<string>IgnoreCaseRegEx</string>
+			<key>ActionUID</key>
+			<integer>16655719</integer>
+			<key>Captures</key>
+			<array>
+				<string></string>
+				<string>rect_coordinates</string>
+			</array>
+			<key>MacroActionType</key>
+			<string>SearchRegEx</string>
+			<key>Search</key>
+			<string>"Bounds":"([^"]+)"</string>
+			<key>Source</key>
+			<string>Variable</string>
+			<key>Variable</key>
+			<string>rect_Result</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>20013355</integer>
+			<key>MacroActionType</key>
+			<string>SetVariableToText</string>
+			<key>Text</key>
+			<string>%rect_coordinates%</string>
+			<key>Variable</key>
+			<string>rect_coord0</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<string>DisplayLarge</string>
+			<key>ActionUID</key>
+			<integer>16655720</integer>
+			<key>IsActive</key>
+			<false/>
+			<key>IsDisclosed</key>
+			<false/>
+			<key>MacroActionType</key>
+			<string>InsertText</string>
+			<key>Text</key>
+			<string>%rect_coordinates%</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>20001665</integer>
+			<key>Animate</key>
+			<false/>
+			<key>DisplayTime</key>
+			<string>.5</string>
+			<key>Height</key>
+			<string>rect_coord0[4]</string>
+			<key>IsActive</key>
+			<false/>
+			<key>Left</key>
+			<string>rect_coord0[1]</string>
+			<key>MacroActionType</key>
+			<string>HiliteLocation</string>
+			<key>Style</key>
+			<string>Rectangle</string>
+			<key>TimeOutAbortsMacro</key>
+			<true/>
+			<key>Top</key>
+			<string>rect_coord0[2]</string>
+			<key>Width</key>
+			<string>rect_coord0[3]</string>
+		</dict>
+		<dict>
+			<key>ActionUID</key>
+			<integer>16655721</integer>
+			<key>MacroActionType</key>
+			<string>Return</string>
+			<key>Text</key>
+			<string>%rect_coord0%</string>
+		</dict>
+	</array>
+	<key>CreationDate</key>
+	<real>774790967.08152902</real>
+	<key>CustomIconData</key>
+	<string>KMEP-ControlFlow</string>
+	<key>ModificationDate</key>
+	<real>787762360.04325795</real>
+	<key>Name</key>
+	<string>[Rect] sub_OverlayRectCoord0</string>
+	<key>Triggers</key>
+	<array>
+		<dict>
+			<key>MacroTriggerType</key>
+			<string>Subroutine</string>
+			<key>Parameters</key>
+			<array>
+				<string>rect_coordinates</string>
+			</array>
+			<key>ReturnsValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>UID</key>
+	<string>0A595A6A-1807-46A5-8AC8-392133822A09</string>
+</dict>
+</plist>
