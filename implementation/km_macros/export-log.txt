@@ -93,3 +93,21 @@ Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-sn
 0 bytes
 New size: 46377 bytes
 ——————————————
+ 20260605_9:50 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_New Bounds %rect_coord0%. |. E16DAA64-AC4A-4D50-8D5C-1C69C53ECBCB
+✅ Exported: [Rect] sub_New Bounds %rect_coord0%.kmmacros
+Old size: 14366 bytes
+New size: 11752 bytes
+——————————————
+ 20260605_11:15 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+[Rect] sub_Name Snapshots. |. A2C11405-B5A3-4DBF-89BE-75AAF5449DF0
+✅ Exported: [Rect] sub_Name Snapshots.kmmacros
+Old size: 4188 bytes
+New size: 4187 bytes
+——————————————
+ 20260605_11:26 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+Keynote insert listImage3screens. |. 408EA603-231F-4FA4-B5F4-F4CCCA2FB593
+✅ Exported: Keynote insert listImage3screens.kmmacros
+Old size: 46946 bytes
+New size: 45074 bytes
+——————————————

@@ -118,137 +118,6 @@
 		</dict>
 		<dict>
 			<key>ActionColor</key>
-			<string>Teal</string>
-			<key>ActionName</key>
-			<string>filter list of images without a letter after the lessonNo</string>
-			<key>ActionUID</key>
-			<integer>16669203</integer>
-			<key>Actions</key>
-			<array>
-				<dict>
-					<key>ActionColor</key>
-					<string>Purple</string>
-					<key>ActionName</key>
-					<string>filter list of images without a letter after the lessonNo</string>
-					<key>ActionUID</key>
-					<integer>16669069</integer>
-					<key>DisplayKind</key>
-					<string>Variable</string>
-					<key>HonourFailureSettings</key>
-					<true/>
-					<key>IncludeStdErr</key>
-					<false/>
-					<key>IncludedVariables</key>
-					<array>
-						<string>9999</string>
-					</array>
-					<key>IsActive</key>
-					<false/>
-					<key>IsDisclosed</key>
-					<false/>
-					<key>MacroActionType</key>
-					<string>ExecuteShellScript</string>
-					<key>Path</key>
-					<string></string>
-					<key>Source</key>
-					<string>Nothing</string>
-					<key>Text</key>
-					<string>#!/bin/bash
-echo "$KMVAR_snag_listOfImagePath" | grep -E "\-[0-9]+[a-zA-Z]+_[0-9]+\.jpg"</string>
-					<key>TimeOutAbortsMacro</key>
-					<true/>
-					<key>TrimResults</key>
-					<true/>
-					<key>TrimResultsNew</key>
-					<true/>
-					<key>UseText</key>
-					<true/>
-					<key>Variable</key>
-					<string>snag_listOfImagePath</string>
-				</dict>
-				<dict>
-					<key>ActionColor</key>
-					<string>Purple</string>
-					<key>ActionName</key>
-					<string>filter list of images without a letter after the lessonNo</string>
-					<key>ActionUID</key>
-					<integer>16917094</integer>
-					<key>DisplayKind</key>
-					<string>Variable</string>
-					<key>HonourFailureSettings</key>
-					<true/>
-					<key>IncludeStdErr</key>
-					<false/>
-					<key>IncludedVariables</key>
-					<array>
-						<string>9999</string>
-					</array>
-					<key>MacroActionType</key>
-					<string>ExecuteShellScript</string>
-					<key>Path</key>
-					<string></string>
-					<key>Source</key>
-					<string>Nothing</string>
-					<key>Text</key>
-					<string>#!/bin/bash
-echo "$KMVAR_snag_listOfImageGridPath" | /usr/bin/grep -E "\-[0-9]+[a-zA-Z]+_[0-9]+\.jpg"</string>
-					<key>TimeOutAbortsMacro</key>
-					<true/>
-					<key>TrimResults</key>
-					<true/>
-					<key>TrimResultsNew</key>
-					<true/>
-					<key>UseText</key>
-					<true/>
-					<key>Variable</key>
-					<string>snag_listOfImagePath</string>
-				</dict>
-				<dict>
-					<key>Action</key>
-					<string>DisplayWindow</string>
-					<key>ActionUID</key>
-					<integer>16669178</integer>
-					<key>IsActive</key>
-					<false/>
-					<key>IsDisclosed</key>
-					<false/>
-					<key>MacroActionType</key>
-					<string>InsertText</string>
-					<key>StyledText</key>
-					<data>
-					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
-					AQAAAC6/AQAAKwAAAAEAAAC3AQAAe1xydGYx
-					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYy
-					ODY3Clxjb2NvYXRleHRzY2FsaW5nMFxjb2Nv
-					YXBsYXRmb3JtMHtcZm9udHRibFxmMFxmc3dp
-					c3NcZmNoYXJzZXQwIEhlbHZldGljYTt9Cntc
-					Y29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxi
-					bHVlMjU1O1xyZWQwXGdyZWVuMFxibHVlMDt9
-					CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3Nz
-					cmdiXGMwXGMwXGMwXGM4NDcwNlxjbmFtZSBj
-					b250cm9sVGV4dENvbG9yO30KXHBhcmRcdHg1
-					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
-					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
-					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
-					YXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
-					b3IwCgpcZjBcZnMzMFxmc21pbGxpMTUzNjQg
-					XGNmMiBzbmFnX2xpc3RPZkltYWdlUGF0aDpc
-					CiVzbmFnX2xpc3RPZkltYWdlR3JpZFBhdGgl
-					fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAA
-					ADljQWm2AQAAAAAAAAAAAAA=
-					</data>
-					<key>Text</key>
-					<string>snag_listOfImagePath:
-%snag_listOfImageGridPath%</string>
-				</dict>
-			</array>
-			<key>MacroActionType</key>
-			<string>Group</string>
-			<key>TimeOutAbortsMacro</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>ActionColor</key>
 			<string>Aqua</string>
 			<key>ActionUID</key>
 			<integer>11190733</integer>
@@ -719,23 +588,95 @@ end tell</string>
 		</dict>
 		<dict>
 			<key>ActionUID</key>
-			<integer>16917179</integer>
-			<key>DisplayKind</key>
-			<string>Window</string>
-			<key>HonourFailureSettings</key>
-			<true/>
-			<key>IncludeStdErr</key>
-			<false/>
-			<key>IncludedVariables</key>
+			<integer>100292951</integer>
+			<key>Actions</key>
 			<array>
-				<string>9999</string>
-			</array>
-			<key>MacroActionType</key>
-			<string>ExecuteAppleScript</string>
-			<key>Path</key>
-			<string></string>
-			<key>Text</key>
-			<string>-- this is the script for working in BigScreen with Single Resolution
+				<dict>
+					<key>ActionName</key>
+					<string>Ensure the student file is the frontmost Keynote Document in workspace K</string>
+					<key>ActionUID</key>
+					<integer>100294612</integer>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>ActionUID</key>
+							<integer>100292926</integer>
+							<key>DisplayKind</key>
+							<string>Window</string>
+							<key>HonourFailureSettings</key>
+							<true/>
+							<key>IncludeStdErr</key>
+							<false/>
+							<key>IncludedVariables</key>
+							<array>
+								<string>9999</string>
+							</array>
+							<key>MacroActionType</key>
+							<string>ExecuteShellScript</string>
+							<key>Path</key>
+							<string>/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/shell_scripts/rect_focus_keynote_student.sh</string>
+							<key>Source</key>
+							<string>Nothing</string>
+							<key>Text</key>
+							<string>/opt/homebrew/bin/aerospace workspace K
+sleep 0.3</string>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+							<key>TrimResults</key>
+							<true/>
+							<key>TrimResultsNew</key>
+							<true/>
+							<key>UseText</key>
+							<false/>
+						</dict>
+						<dict>
+							<key>ActionUID</key>
+							<integer>100293691</integer>
+							<key>MacroActionType</key>
+							<string>Pause</string>
+							<key>Time</key>
+							<string>.5</string>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>ActionUID</key>
+							<integer>100294587</integer>
+							<key>Application</key>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.apple.Keynote</string>
+								<key>Name</key>
+								<string>Keynote</string>
+								<key>NewFile</key>
+								<string>/Applications/Keynote Creator Studio.app</string>
+							</dict>
+							<key>IsDefaultApplication</key>
+							<false/>
+							<key>MacroActionType</key>
+							<string>Open1File</string>
+							<key>Path</key>
+							<string>%keyn_studentKeynote%</string>
+						</dict>
+						<dict>
+							<key>ActionUID</key>
+							<integer>16917179</integer>
+							<key>DisplayKind</key>
+							<string>Window</string>
+							<key>HonourFailureSettings</key>
+							<true/>
+							<key>IncludeStdErr</key>
+							<false/>
+							<key>IncludedVariables</key>
+							<array>
+								<string>9999</string>
+							</array>
+							<key>MacroActionType</key>
+							<string>ExecuteAppleScript</string>
+							<key>Path</key>
+							<string></string>
+							<key>Text</key>
+							<string>-- this is the script for working in BigScreen with Single Resolution
 
 -- /Users/tsukadjed/Dropbox/Automation/applescript Folder/Keynote/resizeImages&amp;insertInKeynoteFrontDoc
 property NameThisMasterSlide : "StudentKeynote"
@@ -743,11 +684,7 @@ property NameThisMasterSlide : "StudentKeynote"
 set kmInst to system attribute "KMINSTANCE"
 tell application "Keyboard Maestro Engine"
 	set thisList to getvariable "snagit_imageList" instance kmInst
-	set imageNameRaw to getvariable "snag_imageName" instance kmInst
 end tell
-
--- Extract surname from snag_imageName (format: YYYYMMDD_SurnameFirstname-session_no)
-set studentSurname to do shell script "echo " &amp; quoted form of imageNameRaw &amp; " | /usr/bin/sed 's/^[0-9]*_\\([A-Za-z]*\\).*/\\1/'"
 
 set theseImageFiles to paragraphs of thisList
 
@@ -776,18 +713,8 @@ set listLength to length of theseImageFiles
 tell application "Keynote"
 	activate
 	
-	-- Find the student document by surname
-	set targetDoc to missing value
-	repeat with d in documents
-		if name of d contains studentSurname then
-			set targetDoc to d
-			exit repeat
-		end if
-	end repeat
-	if targetDoc is missing value then error "Could not find Keynote document containing: " &amp; studentSurname
-	
 	-- test SlideLayout name and add new empty slide
-	tell targetDoc
+	tell the front document -- or "tell document 1"
 		set NumbCurrentSlide to slide number of current slide
 		set NumbLastSlideNumb to slide number of last slide
 		set NamesMasterSlide to the name of every slide layout
@@ -800,7 +727,7 @@ tell application "Keynote"
 	repeat with i from 1 to the count of theseImageFiles
 		set thisImageFile to item i of theseImageFiles
 		-- layoutName: StudentKeynote
-		tell targetDoc
+		tell front document
 			set thisSlide to make new slide with properties {base layout:slide layout NameThisMasterSlide}
 			tell current slide
 				set thisImage to make new image with properties {file:thisImageFile}
@@ -808,13 +735,25 @@ tell application "Keynote"
 		end tell
 	end repeat
 end tell</string>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+							<key>TrimResults</key>
+							<true/>
+							<key>TrimResultsNew</key>
+							<true/>
+							<key>UseText</key>
+							<true/>
+						</dict>
+					</array>
+					<key>MacroActionType</key>
+					<string>Group</string>
+					<key>TimeOutAbortsMacro</key>
+					<true/>
+				</dict>
+			</array>
+			<key>MacroActionType</key>
+			<string>Group</string>
 			<key>TimeOutAbortsMacro</key>
-			<true/>
-			<key>TrimResults</key>
-			<true/>
-			<key>TrimResultsNew</key>
-			<true/>
-			<key>UseText</key>
 			<true/>
 		</dict>
 		<dict>
@@ -1571,7 +1510,7 @@ end tell</string>
 	<key>CustomIconData</key>
 	<string>KMEP-GenericApplication-/Applications/Keynote.app</string>
 	<key>ModificationDate</key>
-	<real>802017628.51914001</real>
+	<real>802344397.99674201</real>
 	<key>Name</key>
 	<string>Keynote insert listImage3screens</string>
 	<key>Triggers</key>

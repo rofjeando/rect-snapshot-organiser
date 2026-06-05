@@ -86,7 +86,7 @@
 							<array>
 								<dict>
 									<key>Default</key>
-									<string>%iina_imageNameModel%a</string>
+									<string>%iina_imageNameModel%</string>
 									<key>Type</key>
 									<string>Automatic</string>
 									<key>Variable</key>
@@ -146,7 +146,7 @@
 	<key>CustomIconData</key>
 	<string>KMEP-ControlFlow</string>
 	<key>ModificationDate</key>
-	<real>796135483.31465995</real>
+	<real>802343689.80267096</real>
 	<key>Name</key>
 	<string>[Rect] sub_Name Snapshots</string>
 	<key>Triggers</key>
