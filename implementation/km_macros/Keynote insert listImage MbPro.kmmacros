@@ -276,7 +276,7 @@
 					<key>ActionUID</key>
 					<integer>400018367</integer>
 					<key>DisplayKind</key>
-					<string>Window</string>
+					<string>None</string>
 					<key>HonourFailureSettings</key>
 					<true/>
 					<key>IncludeStdErr</key>
@@ -1117,7 +1117,7 @@ end tell</string>
 	<key>CustomIconData</key>
 	<string>KMEP-GenericApplication-/Applications/Keynote Creator Studio.app</string>
 	<key>ModificationDate</key>
-	<real>813072818.42705405</real>
+	<real>813073358.65523195</real>
 	<key>Name</key>
 	<string>Keynote insert listImage MbPro</string>
 	<key>Triggers</key>

@@ -160,3 +160,15 @@ Old size: stat: /Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-sn
 0 bytes
 New size: 33245 bytes
 ——————————————
+ 20261007_15:41 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+Keynote insert listImage3screens. | 76C22AAE-3F66-40F8-9CF9-4F13980FFEC5 |groupUUID: 4846D329-A105-4BDC-90E5-F317B45442CEgroupName: __PaletteAffinityDesigner    ⌃ ⌥ P |.
+✅ Exported: Keynote insert listImage3screens.kmmacros
+Old size: 40029 bytes
+New size: 40191 bytes
+——————————————
+ 20261007_15:42 	/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/rect-snapshot_organiser/implementation/km_macros
+Keynote insert listImage MbPro. | 2394B140-7ADF-465D-B289-682EF8849BC3 |groupUUID: 4846D329-A105-4BDC-90E5-F317B45442CEgroupName: __PaletteAffinityDesigner    ⌃ ⌥ P |.
+✅ Exported: Keynote insert listImage MbPro.kmmacros
+Old size: 33245 bytes
+New size: 33243 bytes
+——————————————

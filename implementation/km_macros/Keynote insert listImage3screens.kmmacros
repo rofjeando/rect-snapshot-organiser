@@ -402,10 +402,12 @@ the list of image(s) is:
 					<key>Actions</key>
 					<array>
 						<dict>
+							<key>ActionColor</key>
+							<string>Green</string>
 							<key>ActionUID</key>
 							<integer>400018078</integer>
 							<key>DisplayKind</key>
-							<string>Window</string>
+							<string>None</string>
 							<key>HonourFailureSettings</key>
 							<true/>
 							<key>IncludeStdErr</key>
@@ -447,10 +449,12 @@ the list of image(s) is:
 							<key>Actions</key>
 							<array>
 								<dict>
+									<key>ActionColor</key>
+									<string>Green</string>
 									<key>ActionUID</key>
 									<integer>400018081</integer>
 									<key>DisplayKind</key>
-									<string>Window</string>
+									<string>None</string>
 									<key>HonourFailureSettings</key>
 									<true/>
 									<key>IncludeStdErr</key>
@@ -1188,6 +1192,8 @@ PRESS KEYS: FDS </string>
 					</array>
 					<key>IsActive</key>
 					<false/>
+					<key>IsDisclosed</key>
+					<false/>
 					<key>MacroActionType</key>
 					<string>Group</string>
 					<key>TimeOutAbortsMacro</key>
@@ -1343,7 +1349,7 @@ end tell</string>
 	<key>CustomIconData</key>
 	<string>KMEP-GenericApplication-/Applications/Keynote Creator Studio.app</string>
 	<key>ModificationDate</key>
-	<real>813071872.12989902</real>
+	<real>813073285.29657698</real>
 	<key>Name</key>
 	<string>Keynote insert listImage3screens</string>
 	<key>Triggers</key>
