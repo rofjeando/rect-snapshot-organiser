@@ -22,11 +22,14 @@ __[RECT] Rect-snapshot_organiser corresponds to the goal of taking a sequence of
 | XML transit folder | `implementation/km_macros/xmlTransit_output/` |
 | Docs | `docs/` |
 
-## KMET XML Workflow (AI ↔ KM)
+## AI ↔ KM Workflow
 
-See `/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/KM_organiser/CLAUDE.md` for full KMET reference.
+**Primary (July 2026+): `[EXM]` / `[IMP]` system** — see `docs/km_xml_import_guide.md`.
+AI writes `MacroName [Claude Import Test].kmmacros` (single-macro `<dict>` root, `IMP_META`
+comment as first action with groupUUID/groupName from the `[EXM]` export log); user imports
+with `imp,,`.
 
-Short version:
+KMET fallback (action-level paste) — see `/Users/tsukadjed/Library/CloudStorage/Dropbox/Automation/KM_organiser/CLAUDE.md` for full reference:
 1. Copy XML from KM: ⌃⌥K
 2. AI modifies/generates XML → `xmlTransit_output/`
 3. Paste into KM: ⌃⌥K
@@ -36,6 +39,10 @@ Short version:
 ## macOS 26 Import Restriction
 
 Import `.kmmacros` from local `~/Documents/` path, not directly from Dropbox CloudStorage path.
+
+> Note (2026-07-30): the `[EXM]` / `[IMP]` system has been observed working reliably from the
+> Dropbox project path (`implementation/km_macros/`). The restriction above applied to
+> double-click imports; keep it in mind if `[IMP]` ever fails with file-access errors.
 
 ## Debugging Sessions
 
